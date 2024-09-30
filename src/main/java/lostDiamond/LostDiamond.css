@@ -1,0 +1,30 @@
+.game_grid_background {
+    -fx-background-image: url("images/africaImage.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 374 374;
+    -fx-background-position: center center;
+}
+
+.brick:hover{
+    -fx-cursor: hand;
+}
+
+.brick {
+    -fx-text-fill: "black";
+    -fx-effect: dropshadow(gaussian, orange, 10, 0.5, 0.0, 0.0);
+}
+
+.brick:disabled {
+    -fx-opacity: 1.0;
+    -fx-effect: dropshadow(gaussian, white, 0, 0, 0, 0);
+}
+
+.clickable_message {
+    -fx-underline: true;
+    -fx-font-weight: bold;
+}
+
+.clickable_message:hover{
+    -fx-cursor: hand;
+    -fx-font: 16 System;
+}
